@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jeff's Contact</title>
+    <!--viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Styles-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <!--Normalize-->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<!--logo and navbar-->
+<body>
+    <header class="page-header">
+        <!--logo-->
+        <img src="./img/logo.png" class="page-header-img">
+        <nav class="main-navigation page-header__item">
+            <ul role="menubar" class="navigation-list">
+                <li role="presentation">
+                    <a href="index.html" role="menuitem"
+                        class="navigation-list__item navigation-list__item--active">Home</a>
+                </li>
+                <li role="presentation">
+                    <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
+                </li>
+                <li role="presentation">
+                    <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+                </li>
+                <li role="presentation">
+                    <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--profile/contact info-->
+
+
+    <div class="profile">
+        <img src="./img/profile.jpg" class="profile__portrait" alt="profile">
+        <h1>Contact Information</h1>
+        <h3> Jeff Spacek</h3>
+        <p> Seattle WA, USA</p>
+        <br>
+        <a href="mailto:jeffrey.spacek@gmail.com"> jeffrey.spacek@gmail.com</a>
+        <br>
+        <a href=":tel:+12345678910"> Tel: +1234-567-8910</a>
+        <br>
+        <a href="mailto:jeffrey.spacek@gmail.com"> Contact me!</a>
+        <!--my CV file download-->
+        <a href="files/cv.pdf" class="button" download>Download my CV</a>
+    </div>
+
+    <!--Footer and Call to Action Section-->
+    <div>
+        <form action="#" method="post" id="contact-form">
+            <label class="standard-label" for="contact-email">E-Mail:</label>
+            <input type="email" id="contact-email" required>
+            <br>
+            <label class="standard-label" for="contact-tel">Tel: </label>
+            <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="contact-tel">
+            <br>
+            <label class="standard-label" for="contact-message">Message: </label>
+            <textarea maxlength="240" required id="contact-message"></textarea>
+            <input type="submit" value="Send Message">
+        </form>
+    </div>
+
+    <!--Footer and Call to Action Section-->
+    <footer class="page-footer">
+        <p> Find me on: </p>
+        <div class="social-media">
+            <!--github social-->
+            <img src="img/github_icon.svg">
+            <a href="https://github.com/jeffspacek3"> Github</a>
+            <!--LinkedIn social-->
+            <img src="img/linkedin_logo.svg">
+            <a href="https://www.linkedin.com/in/jeffrey-spacek-805b99205/">Linkedin</a>
+            <!--twitter social-->
+            <img src="img/twitter_social_icon.svg">
+            <a href="https://twitter.com/">Twitter</a>
+        </div>
+    </footer>
+
+    <script src="js\tota11y.min.js"></script>
+</body>
+
+</html>
