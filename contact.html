@@ -62,16 +62,33 @@
 
     <!--Footer and Call to Action Section-->
     <div>
+        <!--Email Input -->
         <form action="#" method="post" id="contact-form">
             <label class="standard-label" for="contact-email">E-Mail:</label>
             <input type="email" id="contact-email" required>
+            form id='register-form'>
+      <div class='input-wrapper'>
+        <label for='email'>E-mail</label>
+        <input id='email'>
+      </div>
+      <button>Register</button>
+            
             <br>
+
+            <!-- telephone -->
             <label class="standard-label" for="contact-tel">Tel: </label>
             <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="contact-tel">
             <br>
             <label class="standard-label" for="contact-message">Message: </label>
             <textarea maxlength="240" required id="contact-message"></textarea>
             <input type="submit" value="Send Message">
+
+
+      
+    </form>
+    <script src="script.js"></script>
+
+            
         </form>
     </div>
 
