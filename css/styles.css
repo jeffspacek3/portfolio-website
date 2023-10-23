@@ -9,10 +9,6 @@ Secondary color (light-blue): #80aaff;
 
 /* style color organization*/
 
-/*bootstrap container*/
-.page-container {
-  margin-top: 60px;
-
 :root {
 
 --background_color: white;
